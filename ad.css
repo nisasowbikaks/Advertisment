@@ -1,0 +1,288 @@
+header{
+    background-color:yellow;
+    background-image: linear-gradient(red,gold);
+    text-align:center;
+}
+header h1{
+    color: rgb(17, 3, 3);
+    padding: 10px;
+}
+#Home {
+    text-align: center;
+    background-color: hsl(77, 5%, 70%);
+    background-image: linear-gradient(pink, rgb(204, 77, 77));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.85;
+}
+
+#Home img {
+    margin: 10px 0;
+    border-radius: 10px; 
+}
+
+#Home p {
+    font-size: 16px;
+    line-height: 1.6;
+    color:solid black;
+}
+
+header nav ul{
+    padding: 10px;
+}
+#header nav,ul,li{
+    color: salmon;
+    display: inline;
+    padding: 40px;
+}
+header nav,ul,li a{
+    color:rgb(145, 73, 9);
+    text-decoration: none;
+}
+body{
+    background-image: url('laysbackground.jpg') ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+#Recipe{
+    background-image: url('laysbackground.jpg') ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+} 
+#Recipe{
+    height:100vh;
+    text-align: center;
+    color: rgba(192, 226, 130, 0.871);
+}
+#WhereToBuy{
+    background-image: url('laysbackground.jpg') ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+} 
+#WhereToBuy{
+    height:100vh;
+    text-align: center;
+    color: rgba(140, 226, 130, 0.871);
+}
+#main h2{
+    text-align: center;
+}
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    text-align: center;
+}
+th{
+    background-color:rgb(42, 73, 68);
+}
+td{
+    background-color:green;
+}
+#move{
+    width:100%;
+    height: 400px;
+    background-color: rgb(230, 221, 221);
+    overflow: auto auto;
+    white-space: nowrap;
+    padding:1px;
+}
+#move #slide{
+    display: inline-block;
+}
+#Products h2{
+    color: #050a10c2;
+    text-align: center;
+}
+#Recipe{
+    text-align: center;
+}
+div.transbox{
+    margin:30px;
+    background-color: #ffffff;
+    border: 1px solid rgba(249, 0, 211, 0.93);
+    opacity:0.6;
+}
+div.transbox p{
+    margin:5%;
+    font-weight: bold;
+}
+#Recipe table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgba(235, 161, 161, 0.6);
+}
+#Recipe th, #Recipe td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center; 
+    vertical-align: middle; 
+}
+#Recipe th { 
+    color: black;
+}
+#Recipe td {
+    background-color: rgba(144, 238, 144, 0.6);
+    color: black;
+}
+marquee{
+    color: rgb(83, 101, 106);
+    background: linear-gradient(to right, rgb(225, 225, 126), rgb(235, 152, 166));
+    padding: 10px;
+    font-weight: bold;
+}
+#button{
+    display: inline-block;
+    background-color: red;
+    color:aliceblue;
+    border:none;
+    border-radius: 10px;
+    padding:10px 20px;
+    cursor:pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+#head-1{
+    border-radius: 10px;
+    background-color: rgb(201, 149, 53);
+    transition: background-color 0.3s;
+}
+#head-2{
+    border-radius: 10px;
+    background-color: red;
+    transition: background-color 0.3s;
+}
+#head-3{
+    border-radius: 10px;
+    background-color: green;
+    transition: background-color 0.3s;
+}
+#head-1:hover{
+    background-color: rgb(234, 192, 114);
+}
+#head-2:hover{
+    background-color: rgb(207, 105, 105);
+}
+#head-3:hover{
+    background-color: rgb(111, 211, 86);
+}
+.promo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.promo-item {
+    padding: 20px 40px;
+    background-color: #FF5733;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    transform: scale(1);
+    transition: transform 0.3s ease, opacity 0.5s ease;
+}
+#buy-one:hover {
+    background-color: #FF8C00;
+    transform: scale(1.1);
+}
+#buy-one:hover + #get-one {
+    opacity: 1;
+    transform: scale(1.1);
+}
+#buy-one {
+    opacity: 1;
+}
+#get-one {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+footer{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+#Location h2{
+    text-align: center;
+}
+#Location{
+    background-image: url('laysbackground.jpg') ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+} 
+#Location{
+    height:100vh;
+    text-align: center;
+    color: rgba(140, 226, 130, 0.871);
+}
+#Contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(185, 156, 118);
+    background-image: linear-gradient(rgb(240, 225, 135), rgb(213, 97, 97));
+    border-top: 3px solid rgb(185, 88, 88);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: background-image 0.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#Contact:hover {
+    background-image: linear-gradient(rgb(213, 97, 97), rgb(240, 225, 135));
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(0.5);
+}
+
+#Contact h2 {
+    font-size: 2rem;
+    color: rgb(94, 31, 31);
+    margin-bottom: 10px;
+}
+
+#Contact p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: rgb(72, 41, 41);
+}
+#Contact:hover {
+    transform: scale(1.05);
+}
+#Location {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+marquee {
+
+}
+#Recipe tr:hover {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+#Recipe, #WhereToBuy, #Location {
+    height: 100vh;
+    text-align: center;
+    color: rgba(140, 226, 130, 0.871);
+    background-image: url('laysbackground.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+#button:hover {
+    background-color: darkred;
+}
+
+#button:active {
+    background-color: crimson;
+    transform: scale(0.98);
+}
+
+
+
